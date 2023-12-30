@@ -1,0 +1,288 @@
+p{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #181818;
+}
+.row-title{
+    height: 249px;
+}
+.row-title .title {
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.row-title .text {
+    font-size: 18px;
+    line-height: 150%;
+    padding-left: 30px;
+    margin: 0;
+}
+.videotour {
+    height: calc(70vw);
+    background: rgba(5, 6, 10, 0.74);
+    border-radius: 0px 4px 4px 4px;
+    text-align: center;
+    background-image: url("../images/rectangle3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.videotour p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 4px;
+}
+.gallery .image_container {
+    padding: 4px;
+    width: 50%;
+    height: calc(100vw/2);
+}
+.gallery .image1, .image2, .image3, .image4{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    margin: 4px 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery .image1{
+    background-image: url("../images/rectangle824.jpg");
+}
+.gallery .image2{
+    background-image: url("../images/Rectangle 822.jpg");
+}
+.gallery .image3{
+    background-image: url("../images/Rectangle 825.jpg");
+}
+.gallery .image4{
+    background-image: url("../images/Rectangle 825.jpg");
+}
+.gallery .image4:hover{
+    background-image: url("../images/rectangle823.jpg");
+}
+.gallery .image3:hover{
+    background-image: url("../images/rectangle823.jpg");
+}
+.gallery .image2:hover{
+    background-image: url("../images/rectangle823.jpg");
+}
+.gallery .image1:hover{
+    background-image: url("../images/rectangle823.jpg");
+}
+.menu{
+    margin-top: 112px;
+    padding: 24px 0;
+    box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.06);
+    color: #B1B1B1;
+}
+.menu p{
+    margin: 0 0 0 12px;
+    padding-right: 5px;
+    color: #B1B1B1;
+}
+.menu .submenu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+.submenu div {
+    margin-left: 15px;
+}
+.menu svg{
+    width: 38px;
+    height: 38px;
+}
+.menu  path{
+    fill: #B1B1B1;
+}
+.menu .active path{
+    fill: #030925;
+}
+.menu .line {
+    position: absolute;
+    margin-left: 0;
+    padding-right: 1px;
+    background: #DFDFDF;
+    width: 2px;
+    height: 24px;
+    left: 0;
+}
+.menu .active p{
+    color: #030925;
+}
+.panorama{
+    height: 426px;
+    width: 100%;
+    background-color: #505050;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cars {
+    background-image: url("../images/image11.jpg");
+}
+.city {
+    background-image: url("../images/image14.jpg");
+}
+.place{
+    margin-top: 75px;
+    margin-bottom: 72px;
+}
+.place .row h2 {
+    font-size: 40px;
+    line-height: 120%;
+    color: #181818;
+}
+.place p, .footer p{
+    font-size: 16px;
+}
+.info p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #181818;
+    padding-top: 59px;
+    margin-bottom: 12px;
+}
+.place .row img, .footer .row img {
+    padding-right: 8px;
+    margin-left: 15px;
+}
+.place .price, .footer .price {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    padding-top: 40px;
+    padding-bottom: 8px;
+}
+.place .line, .footer .line{
+    margin: 0 28px;
+    height: 24px;
+    width: 2px;
+    background-color: #DFDFDF;
+}
+.container .marker_list{
+    padding-left: 15px;
+    padding-top: 59px;
+}
+.marker_list .marker {
+    position: absolute;
+    margin-top: 3px;
+    width: 2px;
+    height: 12px;
+    background: #EBAA00;
+}
+.marker_list p {
+    margin-left: 14px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer{
+    padding-top: 159px;
+    padding-bottom: 156px;
+    background: linear-gradient(0deg, #080808 0%, rgba(0, 0, 0, 0.73) 100%);
+    background-image: url("../images/rectangle3.jpg");
+    color: #FFFFFF;
+}
+.footer .flip {
+    flex-direction: column-reverse;
+}
+.footer .marker_list {
+    padding-top: 0;
+}
+.footer h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+}
+.footer p, .footer span{
+    color: #FFFFFF;
+}
+.footer .attention{
+    margin-top: 40px;
+}
+.footer .attention span {
+    display: none;
+}
+.footer .attention:hover span{
+    display: block;
+    margin-left: 50px;
+    margin-top: -30px;
+    color: #EBAA00;
+    position: absolute;
+    border-radius: 4px;
+}
+.footer button{
+    background: #EBAA00;
+    border-radius: 4px;
+    width: 240px;
+    height: 56px;
+    margin-top: 48px;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+@media (min-width: 576px) {
+    .videotour{
+        height: 572px;
+    }
+    .menu .submenu{
+        padding: 15px 0;
+    }
+    .container .marker_list {
+        padding-top: 0;
+    }
+    .footer .flip {
+        flex-direction: row;
+    }
+}
+@media (min-width: 768px) {
+    .menu{
+        padding: 24px 0;
+    }
+    .container .marker_list{
+        padding-left: 15px;
+    }
+    .footer {
+        padding-left: 62px;
+    }
+}
+@media (min-width: 992px) {
+    .gallery {
+        width: 41%;
+        margin-top: -8px;
+    }
+    .gallery .image_container {
+        height: 50%;
+    }
+    .container .marker_list{
+        padding-left: 100px;
+    }
+    .menu .submenu{
+        padding: 0;
+    }
+}
+@media (min-width: 1140px) {
+    .place .marker_list {
+        padding-left: 200px;
+    }
+}
